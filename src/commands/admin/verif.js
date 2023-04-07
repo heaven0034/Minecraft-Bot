@@ -14,9 +14,9 @@ module.exports = {
     const verif = new MessageEmbed()
       .setColor('#e67e22')
       .setTitle('VERIFICATION | CAPTCHA')
-      .setDescription('**Bienvenue parmi nous !**\nPour accéder au reste du Discord, coche la réaction ci-dessous.\n\n📜 \`JOUER SUR TALIA C\'EST :\`\n\n・Jouer sur un serveur innovant en 1.8.9\n・Profiter de nombreuses nouveautés et mises à jour régulières\n・Évoluer dans un environnement anime, fluide et divertissant\n\n**Bon jeu sur play.taliamc.fr !**')
-      .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
-      .setFooter('© Talia - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
+      .setDescription('**Bienvenue parmi nous !**\nPour accéder au reste du Discord, coche la réaction ci-dessous.\n\n📜 \`JOUER SUR GRIMM C\'EST :\`\n\n・Jouer sur un serveur innovant en 1.8.9\n・Profiter de nombreuses nouveautés et mises à jour régulières\n・Évoluer dans un environnement anime, fluide et divertissant\n\n**Bon jeu sur play.grimm.fr !**')
+      .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
+      .setFooter('© Grimm - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
       .setTimestamp();
 
       const rolebtn = new MessageButton()
