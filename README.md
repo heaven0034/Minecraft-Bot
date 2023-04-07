@@ -17,7 +17,7 @@ Pour le message de bienvenue et du leave sa se passe dans <strong>l'index.js</st
   - L'ouvrir avec votre éditeur de texte
   - Ouvrir un terminal et tapez: npm i (Il va installer tous les modules en même temps)
   - Pour finir remplacer les informations par ceux de votre serveur 
-  PS: Oubliez pas de changer par les IDs de votre channel de bienvenue, de leave et l'ID de votre role membre
+  - Oubliez pas de changer par les IDs de votre channel de bienvenue, de leave et l'ID de votre role membre
 
 ## 🎥 Extrait
 <div align="center"><img src="./2023-04-08 01-31-45.gif"></div>
