@@ -25,7 +25,7 @@ client.on('guildMemberAdd', async member => {
     .setURL(serveur)
     .setDescription(`**${member.user.tag}** vient de rejoindre l'aventure !\n${invite ? `Il a été invité par **${invite.inviter.tag}**` : 'Nous ne savons pas qui l\'a invité.'} \n\nLe discord compte désormais **${member.guild.memberCount}** aventuriers !`)
     .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
-    .setFooter(`© Talia - 2023`)
+    .setFooter('© Talia - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
     .setTimestamp();
 
   channel.send({ embeds: [join] });
@@ -42,7 +42,7 @@ client.on('guildMemberRemove', async member => {
     .setURL(serveur)
     .setDescription(`**${member.user.username}** vient de quitter le serveur.\n\nLe discord compte désormais **${member.guild.memberCount}** aventuriers !`)
     .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
-    .setFooter(`© Talia - 2023`)
+    .setFooter('© Talia - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
     .setTimestamp();
 
   channel.send({ embeds: [leave] });
