@@ -8,3 +8,5 @@ Ce n'est pas un bot qui peut supporter plusieurs serveurs mais uniquement une se
 Pour le message de bienvenue et du leave sa se passe dans <strong>l'index.js</strong>.
 
 <img src="./2023-04-08 01-31-45.gif">
+
+Dev avec le ❤️ et JavaScript !
