@@ -12,6 +12,8 @@ Pour le message de bienvenue et du leave sa se passe dans <strong>l'index.js</st
 - [Node.js LTS](https://nodejs.org/en/download/)
 
 
+
+## 🎥 Extrait
 <div align="center"><img src="./2023-04-08 01-31-45.gif"></div>
 
 <div align="center">Dev avec le ❤️ et JavaScript !</div>
