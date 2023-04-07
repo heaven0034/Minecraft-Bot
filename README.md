@@ -9,4 +9,4 @@ Pour le message de bienvenue et du leave sa se passe dans <strong>l'index.js</st
 
 <div align="center"><img src="./2023-04-08 01-31-45.gif"></div>
 
-Dev avec le ❤️ et JavaScript !
+<div align="center">Dev avec le ❤️ et JavaScript !</div>
