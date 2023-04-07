@@ -7,7 +7,7 @@ module.exports = {
   description: 'Affiche la latence du bot et de l\'API Discord',
   execute(message, args, client) {
     const pingEmbed = new Discord.MessageEmbed()
-      .setColor('#2b2d31')
+      .setColor('#e67e22')
       .setTitle('Choisissez ce que vous voulez afficher :')
       .addField(`${emojis.un} - Latence du bot`, ' ', true)
       .addField(`${emojis.deux} - Latence de l\'API`, ' ', true);
@@ -31,7 +31,7 @@ module.exports = {
         collector.on('collect', (interaction) => {
           if (interaction.customId === 'botPing') {
             const botPingEmbed = new Discord.MessageEmbed()
-              .setColor('#2b2d31')
+              .setColor('#e67e22')
               .setTitle('Vous choisissez la latence du bot')
               .setDescription(`La latence du bot est de ${msg.createdTimestamp - message.createdTimestamp}ms ${emojis.check}`);
 
@@ -48,7 +48,7 @@ module.exports = {
 
           if (interaction.customId === 'apiPing') {
             const apiPingEmbed = new Discord.MessageEmbed()
-              .setColor('#2b2d31')
+              .setColor('#e67e22')
               .setTitle('Vous choisissez la latence de l\'API')
               .setDescription(`La latence de l'API est de ${Math.round(client.ws.ping)}ms ${emojis.check}`);
 
