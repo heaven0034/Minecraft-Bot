@@ -14,18 +14,18 @@ const client = new Discord.Client({
 
 // Message de join
 client.on('guildMemberAdd', async member => {
-  const channel = member.guild.channels.cache.get('1093943502225801331');
+  const channel = member.guild.channels.cache.get('1093943502225801331'); // Mettre l'ID ou le message sera envoyer
   const invites = await member.guild.invites.fetch();
   const invite = invites.find(i => i.inviter && i.uses > (i.inviter.uses || 0));
   const serveur = 'https://discord.gg/taliamc'
 
   const join = new MessageEmbed()
     .setColor('#e67e22')
-    .setTitle(`Bienvenue sur Talia 🎉`)
+    .setTitle(`Bienvenue sur Grimm 🎉`)
     .setURL(serveur)
     .setDescription(`**${member.user.tag}** vient de rejoindre l'aventure !\n${invite ? `Il a été invité par **${invite.inviter.tag}**` : 'Nous ne savons pas qui l\'a invité.'} \n\nLe discord compte désormais **${member.guild.memberCount}** aventuriers !`)
-    .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
-    .setFooter('© Talia - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
+    .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
+    .setFooter('© Grimm - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
     .setTimestamp();
 
   channel.send({ embeds: [join] });
@@ -33,16 +33,16 @@ client.on('guildMemberAdd', async member => {
 
 //Message de leave
 client.on('guildMemberRemove', async member => {
-  const channel = member.guild.channels.cache.get('1093992746722795541');
-  const serveur = 'https://discord.gg/taliamc'
+  const channel = member.guild.channels.cache.get('1093992746722795541'); // Mettre l'ID ou le message sera envoyer
+  const serveur = 'https://discord.gg/votre-url'
 
   const leave = new MessageEmbed()
   .setColor('#e67e22')
-    .setTitle(`À quitter Talia ☹️`)
+    .setTitle(`À quitter Grimm ☹️`)
     .setURL(serveur)
     .setDescription(`**${member.user.username}** vient de quitter le serveur.\n\nLe discord compte désormais **${member.guild.memberCount}** aventuriers !`)
-    .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
-    .setFooter('© Talia - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094003792359469186/f1c9db6437f02c913bd10bf9df87f337.png')
+    .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
+    .setFooter('© Grimm - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
     .setTimestamp();
 
   channel.send({ embeds: [leave] });
