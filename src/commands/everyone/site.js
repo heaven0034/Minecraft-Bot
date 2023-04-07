@@ -15,7 +15,8 @@ module.exports = {
     const linkButton = new MessageButton()
       .setLabel('Visiter le site')
       .setStyle('LINK')
-      .setURL('https://taliamc.fr');
+      .setURL('https://taliamc.fr')
+      .setEmoji('🌐');
     
     const actionRow = new MessageActionRow().addComponents(linkButton);
     message.channel.send({ embeds: [embed], components: [actionRow] });
