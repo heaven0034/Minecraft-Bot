@@ -19,7 +19,4 @@ Pour le message de bienvenue et du leave sa se passe dans <strong>l'index.js</st
   - Pour finir remplacer les informations par ceux de votre serveur 
   - Oubliez pas de changer par les IDs de votre channel de bienvenue, de leave et l'ID de votre role membre
 
-## 🎥 Extrait
-<div align="center"><img src="./2023-04-08 01-31-45.gif"></div>
-
 <div align="center">Dev avec le ❤️ et JavaScript !</div>
