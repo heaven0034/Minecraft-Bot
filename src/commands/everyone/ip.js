@@ -6,12 +6,12 @@ module.exports = {
   execute(message, args) {
     const embed = new MessageEmbed()
       .setColor('#e67e22')
-      .setTitle('Grimm • Adresse IP')
-      .setDescription('L\'ip du serveur est **play.grimm.fr**\nEn espèrant te voir bientôt en jeu !')
-      .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
-      .setFooter('© Grimm - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
+      .setTitle('Irania • Adresse IP')
+      .setDescription('L\'ip du serveur est **play.iraniamc.fr**\nEn espèrant te voir bientôt en jeu !')
+      .setThumbnail('https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
+      .setFooter('© Irania - 2023', 'https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
       .setTimestamp();
     
-    message.channel.send({ embeds: [embed] });
+    message.reply({ embeds: [embed] });
   },
 };
