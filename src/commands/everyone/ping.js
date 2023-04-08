@@ -10,7 +10,9 @@ module.exports = {
       .setColor('#e67e22')
       .setTitle('Choisissez ce que vous voulez afficher :')
       .addField(`${emojis.un} - Latence du bot`, ' ', true)
-      .addField(`${emojis.deux} - Latence de l\'API`, ' ', true);
+      .addField(`${emojis.deux} - Latence de l\'API`, ' ', true)
+      .setFooter('© Irania - 2023', 'https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
+      .setTimestamp();
 
     const row = new Discord.MessageActionRow()
       .addComponents(
@@ -33,7 +35,9 @@ module.exports = {
             const botPingEmbed = new Discord.MessageEmbed()
               .setColor('#e67e22')
               .setTitle('Vous choisissez la latence du bot')
-              .setDescription(`La latence du bot est de ${msg.createdTimestamp - message.createdTimestamp}ms ${emojis.check}`);
+              .setDescription(`La latence du bot est de ${msg.createdTimestamp - message.createdTimestamp}ms ${emojis.check}`)
+              .setFooter('© Irania - 2023', 'https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
+              .setTimestamp();
 
             const backButton = new Discord.MessageButton()
               .setCustomId('backButton')
@@ -50,7 +54,9 @@ module.exports = {
             const apiPingEmbed = new Discord.MessageEmbed()
               .setColor('#e67e22')
               .setTitle('Vous choisissez la latence de l\'API')
-              .setDescription(`La latence de l'API est de ${Math.round(client.ws.ping)}ms ${emojis.check}`);
+              .setDescription(`La latence de l'API est de ${Math.round(client.ws.ping)}ms ${emojis.check}`)
+              .setFooter('© Irania - 2023', 'https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
+              .setTimestamp();
 
             const backButton = new Discord.MessageButton()
               .setCustomId('backButton')
