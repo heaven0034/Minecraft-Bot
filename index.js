@@ -21,11 +21,11 @@ client.on('guildMemberAdd', async member => {
 
   const join = new MessageEmbed()
     .setColor('#e67e22')
-    .setTitle(`Bienvenue sur Grimm 🎉`)
+    .setTitle(`Bienvenue sur Irania 🎉`)
     .setURL(serveur)
     .setDescription(`**${member.user.tag}** vient de rejoindre l'aventure !\n${invite ? `Il a été invité par **${invite.inviter.tag}**` : 'Nous ne savons pas qui l\'a invité.'} \n\nLe discord compte désormais **${member.guild.memberCount}** aventuriers !`)
-    .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
-    .setFooter('© Grimm - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
+    .setThumbnail('https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
+    .setFooter('© Irania - 2023', 'https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
     .setTimestamp();
 
   channel.send({ embeds: [join] });
@@ -38,11 +38,11 @@ client.on('guildMemberRemove', async member => {
 
   const leave = new MessageEmbed()
   .setColor('#e67e22')
-    .setTitle(`À quitter Grimm ☹️`)
+    .setTitle(`À quitter Irania ☹️`)
     .setURL(serveur)
     .setDescription(`**${member.user.username}** vient de quitter le serveur.\n\nLe discord compte désormais **${member.guild.memberCount}** aventuriers !`)
-    .setThumbnail('https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
-    .setFooter('© Grimm - 2023', 'https://cdn.discordapp.com/attachments/1093653326240948257/1094038456210034738/4601_github.png')
+    .setThumbnail('https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
+    .setFooter('© Irania - 2023', 'https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
     .setTimestamp();
 
   channel.send({ embeds: [leave] });
