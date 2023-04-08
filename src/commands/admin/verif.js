@@ -21,8 +21,8 @@ module.exports = {
 
       const rolebtn = new MessageButton()
       .setCustomId('role')
-      .setLabel('Vérification')
-      .setStyle('PRIMARY');
+      .setLabel('Rejoindre Irania ⭐')
+      .setStyle('SUCCESS');
 
       const row = new MessageActionRow().addComponents(rolebtn);
 
