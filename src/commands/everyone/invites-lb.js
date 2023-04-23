@@ -14,7 +14,7 @@ module.exports = {
       .setTitle("Classement des invitations")
       .setDescription(
         invites
-          .map((invite, index) => `${emojis[index]} - ${invite.inviter.tag.replace(/:/g, ": ")} : ${invite.uses} invitations`)
+          .map((invite, index) => `${emojis[index]} - ${invite.inviter.tag.replace(/:/g, ": ")} : ${invite.uses} invitations !`)
           .join("\n")
       )
       .setThumbnail('https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
