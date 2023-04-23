@@ -7,7 +7,8 @@ Ce n'est pas un bot qui peut supporter plusieurs serveurs mais uniquement une se
 
 Pour le message de bienvenue et du leave sa se passe dans <strong>l'index.js</strong>.
 
-Pour 75 euro, vous avez le bot chez ZIROX, je vous le fait gratuitement pour vous aider a la place de payer pour un simple bot. 
+Pour 75 euro, vous avez le bot chez ZIROX, je vous le fait gratuitement pour vous aider a la place de payer pour un simple bot. (Pas fini les updates)
+
 <img src="https://i.imgur.com/u25yX7L.png">
 
 ## 🚧 Prérequis
