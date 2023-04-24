@@ -28,9 +28,15 @@ Pour 75 euro, vous avez le bot chez ZIROX, je vous le fait gratuitement pour vou
 
 ```diff
 24-04-2023
-+ Ajout de la commande suggestions ( Permet aux utilisateurs de faire des suggestions )
-+ Ajout de la commande invites ( Affiche le nombre d'invitations d'un utilisateur. )
-+ Ajout de la commande invites-lb ( Affiche le classement des utilisateurs ayant le plus d'invitations. )
++ Ajout suggestions.js
++ Ajout invites.js
++ invites-lb.js
+
++ Mise a jour boutique.js
++ Mise a jour help.js
++ Mise a jour site.js
++ Mise a jour rules.js
++ Mise a jour verif.js
 ```
 
 <div align="center">Dev avec le ❤️ et JavaScript !</div>
