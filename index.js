@@ -17,7 +17,7 @@ client.on('guildMemberAdd', async member => {
   const channel = member.guild.channels.cache.get('1093943502225801331'); // Mettre l'ID ou le message sera envoyer
   const invites = await member.guild.invites.fetch();
   const invite = invites.find(i => i.inviter && i.uses > (i.inviter.uses || 0));
-  const serveur = 'https://discord.gg/taliamc'
+  const serveur = 'https://discord.gg/zkt4yP457D'
 
   const join = new MessageEmbed()
     .setColor('#e67e22')
@@ -34,7 +34,7 @@ client.on('guildMemberAdd', async member => {
 //Message de leave
 client.on('guildMemberRemove', async member => {
   const channel = member.guild.channels.cache.get('1093992746722795541'); // Mettre l'ID ou le message sera envoyer
-  const serveur = 'https://discord.gg/votre-url'
+  const serveur = 'https://discord.gg/zkt4yP457D'
 
   const leave = new MessageEmbed()
   .setColor('#e67e22')
