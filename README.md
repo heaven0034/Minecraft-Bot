@@ -24,4 +24,13 @@ Pour 75 euro, vous avez le bot chez ZIROX, je vous le fait gratuitement pour vou
   - Pour finir remplacer les informations par ceux de votre serveur 
   - Oubliez pas de changer par les IDs de votre channel de bienvenue, de leave et l'ID de votre role membre
 
+## 💭 ChangeLog
+
+```diff
+24-04-2023
++ Ajout de la commande suggestions ( Permet aux utilisateurs de faire des suggestions )
++ Ajout de la commande invites ( Affiche le nombre d'invitations d'un utilisateur. )
++ Ajout de la commande invites-lb ( Affiche le classement des utilisateurs ayant le plus d'invitations. )
+```
+
 <div align="center">Dev avec le ❤️ et JavaScript !</div>
