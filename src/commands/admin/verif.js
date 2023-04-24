@@ -11,9 +11,11 @@ module.exports = {
       return message.reply({ embeds: [erreurEmbed], ephemeral: true });
     }
 
+    const serveur = 'https://discord.gg/zkt4yP457D'
     const verif = new MessageEmbed()
       .setColor('#e67e22')
       .setTitle('VERIFICATION | CAPTCHA')
+      .setURL(serveur)
       .setDescription('**Bienvenue parmi nous !**\nPour accéder au reste du Discord, clique sur le bouton de verification ci-dessous.\n\n📜 \`JOUER SUR IRANIA C\'EST :\`\n\n・Jouer sur un serveur innovant en 1.8.9\n・Profiter de nombreuses nouveautés et mises à jour régulières\n・Évoluer dans un environnement anime, fluide et divertissant\n\n**Bon jeu sur play.iraniamc.fr !**')
       .setThumbnail('https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
       .setFooter('© Irania - 2023', 'https://cdn.discordapp.com/attachments/1094041372262138027/1094224117567332402/server-icon.png')
