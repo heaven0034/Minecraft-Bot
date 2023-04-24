@@ -30,7 +30,7 @@ Pour 75 euro, vous avez le bot chez ZIROX, je vous le fait gratuitement pour vou
 24-04-2023
 + Ajout suggestions.js
 + Ajout invites.js
-+ invites-lb.js
++ Ajout invites-lb.js
 
 + Mise a jour boutique.js
 + Mise a jour help.js
